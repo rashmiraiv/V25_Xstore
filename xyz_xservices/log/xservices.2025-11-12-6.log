@@ -1,0 +1,549 @@
+loading C:Xstore_V25V25_code_workspacexyz_xservicesxservices-config-devxservices-log4j2.xml
+2025-11-12 12:22:02,423 INFO  [main] [com.micros_retail.xcenter] xservices logging initialized. External (optional) log4j configuration: [C:\Xstore_V25\V25_code_workspace\xyz_xservices\xservices-config-dev\xservices-log4j2.xml]
+2025-11-12 12:22:02,431 INFO  [main] [com.micros_retail.xcenter.bootstrap] 
+**************************************************
+**************************************************
+**** Oracle Retail xservices initializing...
+**************************************************
+**************************************************
+2025-11-12 12:22:02,431 INFO  [main] [com.micros_retail.xcenter.bootstrap.Bootstrap] xservices bootstrap step: com.micros_retail.xcenter.bootstrap.BootstrapIdpConfiguration
+2025-11-12 12:22:02,447 INFO  [main] [com.micros_retail.xcenter.bootstrap.Bootstrap] xservices bootstrap step: com.micros_retail.xcenter.bootstrap.BootstrapExternalConfigPath
+2025-11-12 12:22:02,447 INFO  [main] [com.micros_retail.xcenter.bootstrap] xservices-config location [C:\Xstore_V25\V25_code_workspace\xyz_xservices\xservices-config-dev\] derived from configured location [${xservices.config.directory}\]
+2025-11-12 12:22:02,447 INFO  [main] [com.micros_retail.xcenter.bootstrap] Effective config folder location: [C:\Xstore_V25\V25_code_workspace\xyz_xservices\xservices-config-dev\]
+2025-11-12 12:22:02,447 INFO  [main] [com.micros_retail.xcenter.bootstrap.Bootstrap] xservices bootstrap step: com.micros_retail.xcenter.bootstrap.BootstrapApplicationScopeProperties
+2025-11-12 12:22:02,447 INFO  [main] [com.micros_retail.xcenter.bootstrap] application-scoped properties location: [C:\Xstore_V25\V25_code_workspace\xyz_xservices\xservices-config-dev\xservices.properties]
+2025-11-12 12:22:02,447 INFO  [main] [com.micros_retail.xcenter.bootstrap] 
+----------- Listing xservices.properties (Application scoped):
+dtv.CustomerId = XST
+dtv.CustomerId.salt = <hidden>
+dtv.auth.Host1 = https://localhost:8443/soap;timeout=60000;urn=uri:xpay
+dtv.auth.Host2 = https://localhost:8443/soap;timeout=60000;urn=uri:xpay
+dtv.auth.SiteID = 74E8RVX2
+dtv.auth.credit.ClientID = 0001
+dtv.auth.credit.MerchantNumber = 00000
+dtv.auth.credit.TerminalID = 001
+dtv.auth.giftcard.ClientID = 0001
+dtv.auth.giftcard.MerchantNumber = 00000
+dtv.auth.giftcard.TerminalID = 001
+dtv.auth.organizationName = MicrosQA
+dtv.auth.xpay.ConnectionPassword = 
+dtv.auth.xpay.ConnectionUserName = 
+dtv.datasource.connectionfactory = oracle.jdbc.pool.OracleDataSource
+dtv.local.db.password = <encrypted>
+dtv.local.db.url = jdbc:oracle:thin:@localhost:1521:v25xstore
+dtv.local.db.user = <encrypted>
+dtv.locate.XstoreSystemCode = XSTORE
+dtv.locate.enableSoapLogging = true
+dtv.locate.order.downloadInterval = 15
+dtv.locate.order.statusRequestInterval = 30
+dtv.location.CountryId = US
+dtv.location.organizationId = 1000
+dtv.location.storeNumber = 101
+dtv.primary.db.password = <encrypted>
+dtv.primary.db.url = jdbc:oracle:thin:@localhost:1521:v25xstore
+dtv.primary.db.user = <encrypted>
+dtv.relate.Auth = <encrypted>
+dtv.relate.AuthTokenName = 
+dtv.relate.ServiceTimeout = 
+dtv.relate.customerId = TENANCYID
+dtv.relate.host = localhost
+dtv.relate.port = 443
+dtv.relate.protocol = https
+dtv.repl.db.password = <encrypted>
+dtv.repl.db.url = jdbc:oracle:thin:@localhost:1521:v25xstore
+dtv.repl.db.user = <encrypted>
+dtv.storebackup.db.password = <encrypted>
+dtv.storebackup.db.url = jdbc:oracle:thin:@otherhost:1521:v25xstore
+dtv.storebackup.db.user = <encrypted>
+dtv.xcenter.keystore.location = C:\Xstore_V25\xstoredata\xservices\xservices-config/res/ssl/.keystore
+dtv.xcenter.keystore.password = <encrypted>
+dtv.xcenter.truststore.location = C:\Xstore_V25\xstoredata\xservices\xservices-config/res/ssl/.truststore
+dtv.xcenter.truststore.password = <encrypted>
+idp.connectionURL = https://identityproviderhost:port
+oracle.retail.xstore.locate.password = <hidden>
+oracle.retail.xstore.locate.username = 
+oracle.retail.xstore.service.discounts.url = 
+oracle.retail.xstore.service.items.url = 
+oracle.retail.xstore.service.prices.url = 
+oracle.retail.xstore.service.taxes.url = 
+oracle.retail.xstore.service.tenders.url = 
+oracle.retail.xstore.service.token.url = 
+xcenter.db.pwd = <encrypted>
+xcenter.db.user = <encrypted>
+xcenter.host = xcenter
+xcenter.org.id = 1000
+xcenter.port = 8443
+xcenter.protocol = https
+xcenter.tenancyid = 
+xservices.base.terminalNumber = 21
+xservices.config.OrderSaleEnabled = true
+xservices.config.UserPwdDefaultNumeric = false
+xservices.config.allowItemNotOnFile = true
+xservices.config.autoLogoutEnabled = false
+xservices.config.autoLogoutWaitSeconds = 300
+xservices.config.blindReceiving = false
+xservices.config.emailReceiptEnabled = true
+xservices.config.enabledAwardRedemption = true
+xservices.config.locate.enabled = false
+xservices.config.loyaltyAwardRedemptionMode = STORED_VALUE
+xservices.config.loyaltyRegistrationMode = CARD_CENTRIC
+xservices.config.manualEnteredCreditCardImprint = true
+xservices.config.notifyForItemNotOnFile = true
+xservices.config.promptForCancelReasonCode = false
+xservices.config.promptForCommissionedAssociates = true
+xservices.config.promptJoinLoyaltyAccount = true
+xservices.config.promptPerItem = false
+xservices.config.rsaPrivateKeyFilePath = res/keys/verifone/currentkey/private.der
+xservices.config.rsaPrivateKeyPassword = <encrypted>
+xservices.config.sendSaleAllowMultipleAddress = true
+xservices.config.sendSaleEnabled = true
+xservices.config.updaterPort = 8443
+xservices.config.updaterProtocol = https
+xservices.currency.id = USD
+xservices.email.host = 127.0.0.1
+xservices.email.port = 25
+xservices.email.useSmtpAuth = false
+xservices.locate.wsdl.location = http://localhost:8080/Locate/LocateServices?WSDL
+xservices.log.path = C:\Xstore_V25\xstoredata\xservices\xservices-log
+xservices.org.id = 1000
+xservices.receipt.printer.name = Epson-Printer-XstoreSharing
+xservices.receipt.printer.portname = localhost
+xservices.rtl_location.id = 101
+xstore.base.version = 25
+xstore.config.path.base.features = :cust/loyalty:cust/loyalty/award:order:locate:relate
+xstore.config.path.global.extensions = :xservices:xservices/patch:xst-xservices
+xstore.location.mobile.workstationId.range.end = 29
+xstore.location.mobile.workstationId.range.start = 20
+2025-11-12 12:22:02,447 INFO  [main] [com.micros_retail.xcenter.bootstrap] Copied 'dtv.CustomerId' from application-scoped properties to System Properties.  Value: [XST]
+2025-11-12 12:22:02,447 INFO  [main] [com.micros_retail.xcenter.bootstrap] Copied 'dtv.CustomerId.salt' from application-scoped properties to System Properties.  Value: [***********]
+2025-11-12 12:22:02,447 INFO  [main] [com.micros_retail.xcenter.bootstrap] Customer id is: XST
+2025-11-12 12:22:02,447 INFO  [main] [com.micros_retail.xcenter.bootstrap] Copied 'xcenter.org.id' from application-scoped properties to System Properties.  Value: [1000]
+2025-11-12 12:22:02,462 INFO  [main] [com.micros_retail.xcenter.bootstrap.Bootstrap] xservices bootstrap step: com.micros_retail.xcenter.bootstrap.BootstrapXstoreSystemProperties
+2025-11-12 12:22:02,462 INFO  [main] [com.micros_retail.xcenter.bootstrap] Setting unspecified system property to default value (dtv.util.config.IPropertyConfigurationSourceImpl=com.micros_retail.xcenter.bootstrap.config.XcenterPropertyConfigurationSource)
+2025-11-12 12:22:02,462 INFO  [main] [com.micros_retail.xcenter.bootstrap] Setting unspecified system property to default value (dtv.util.config.ConfigPathPropertySourceImpl=com.micros_retail.xcenter.bootstrap.config.XcenterPropertyConfigurationSource)
+2025-11-12 12:22:02,509 INFO  [main] [com.micros_retail.xcenter.bootstrap] Setting unspecified system property to default value (dtv.pos.i18n.hardware=dtv/i18n/hardware;version1/hardware)
+2025-11-12 12:22:02,509 INFO  [main] [com.micros_retail.xcenter.bootstrap] Setting unspecified system property to default value (dtv.hardware.StartupDialogManager.disable=true)
+2025-11-12 12:22:02,509 INFO  [main] [com.micros_retail.xcenter.bootstrap] Setting unspecified system property to default value (dtv.util.net.ssl.keyStore=C:\Xstore_V25\V25_code_workspace\xyz_xservices\xservices-config-dev\res\ssl\.keystore)
+2025-11-12 12:22:02,509 INFO  [main] [com.micros_retail.xcenter.bootstrap] Setting unspecified system property to default value (dtv.util.net.ssl.trustStore=C:\Xstore_V25\V25_code_workspace\xyz_xservices\xservices-config-dev\res\ssl\.truststore)
+2025-11-12 12:22:02,509 INFO  [main] [com.micros_retail.xcenter.bootstrap] Setting unspecified system property to default value (xstore.config.path.global.extensions=)
+2025-11-12 12:22:02,525 INFO  [main] [com.micros_retail.xcenter.bootstrap] 
+
+----------- Listing System Properties (JVM scoped):
+
+********************
+CONFIG PATH
+********************
+
+xstore.config.path.base.features = [cust/loyalty, cust/loyalty/award, order, locate, relate]
+xstore.config.path.global.extensions = [xservices, xservices/patch, xst-xservices]
+xstore.config.path.overrides.store.-1 = []
+Assembled Global Config Paths = [dtv/res/config, xstorepos, service-items, service-prices, service-tenders, service-token, service-discounts, service-taxes, cust/loyalty, cust/loyalty/award, order, locate, relate, base, localization/US, countrypack/US, version1, MASTER/DEFAULT, xservices, xservices/patch, xst-xservices]
+
+************************************************************
+SYSTEM PROPERTIES
+************************************************************
+
+Loaded system.properties from: file:/C:/Xstore_V25/V25_code_workspace/xyz_xservices/bin/system.properties
+
+CONTENTS:
+CustomerServices = dtv.xst.crm.relate.impl.CustomerServicesFactory
+JREX_DEBUG = false
+LoyaltyServices = dtv.xst.crm.impl.LoyaltyServicesFactory
+XDO_FONT_DIR = C:\Xstore_V25\V25_code_workspace\xyz_xservices\xservices-config-dev\res\fonts\
+com.sun.xml.ws.transport.http.HttpAdapter.dump = true
+debugger.agent.enable.coroutines = true
+dtv.CustomerId = XST
+dtv.CustomerId.salt = <hidden>
+dtv.auth.log.trace = true
+dtv.config.configuring = false
+dtv.data2.access.DataFactory.Implementation = dtv.data2.access.DataFactory
+dtv.data2.access.DataModel.enableEventPostingForChanges = true
+dtv.data2.access.IPersistenceMgr.Implementation = dtv.data2.access.pm.DefaultPersistenceMgr
+dtv.data2.access.ObjectManager = dtv.data2.access.ObjectManager
+dtv.data2.datamodelfactory = dtv.data2.access.impl.DataModelFactoryCustomerImpl
+dtv.data2.jdbcadapterfactory = dtv.data2.access.impl.jdbc.JDBCAdapterMapCustomerImpl
+dtv.docbuilding.DocBuilderFieldFactory = dtv.pos.docbuilding.PosDocBuilderFieldFactory
+dtv.hardware.StartupDialogManager.disable = true
+dtv.hardware.remotePrintPort = 4886
+dtv.i18n.LocaleManager.registryCacheImpl = dtv.util.SoftHashMap
+dtv.i18n.formatDisplay = dtv/i18n/FormatDisplay
+dtv.ipc.server.Server.Port = 9090
+dtv.locate.order.downloadInterval = 15
+dtv.locate.order.statusRequestInterval = 30
+dtv.location.organizationId = 1000
+dtv.pos.appmanagement.jmx.port = 2020
+dtv.pos.disablePaintLimiting = false
+dtv.pos.framework.StationModelMgr = com.micros_retail.xservices.XservicesStationModelMgr
+dtv.pos.framework.StoreCalendar = dtv.pos.storecalendar.BasicStoreCalendar
+dtv.pos.i18n.hardware = dtv/i18n/hardware;version1/hardware
+dtv.pos.i18n.phone = dtv/i18n/PhoneNumbers;version1/PhoneNumbers
+dtv.pos.i18n.translation = dtv/i18n/translations;cust/translations;cust/loyalty/award/translations;version1/translations;xservices/translations;xst-xservices/translations
+dtv.pos.pricing.PricingHelper = com.micros_retail.xservices.pricing.MrPricingHelper
+dtv.pos.till.TillHelper = com.micros_retail.xcenter.service.register.MrWSTillHelper
+dtv.pricing2.PriceProvider = dtv.pos.pricing.DTOPriceProvider
+dtv.system.properties.location = file:/C:/Xstore_V25/V25_code_workspace/xyz_xservices/bin/system.properties
+dtv.system.properties.location.type = CLASSPATH
+dtv.system.properties.locations = file:/C:/Xstore_V25/V25_code_workspace/xyz_xservices/bin/system.properties
+dtv.tenderauth.TenderAuthHelper = dtv.tenderauth.impl.PosTenderAuthHelper
+dtv.tenderretail.LogEntryHelper = dtv.tenderauth.impl.tenderretail.PosLogEntryHelper
+dtv.util.address.FileLocation = res/address/
+dtv.util.config.ConfigPathPropertySourceImpl = com.micros_retail.xcenter.bootstrap.config.XcenterPropertyConfigurationSource
+dtv.util.config.IConfigLoaderImpl = dtv.util.config.SaxConfigLoader
+dtv.util.config.IPropertyConfigurationSourceImpl = com.micros_retail.xcenter.bootstrap.config.XcenterPropertyConfigurationSource
+dtv.util.net.ssl.keyStore = C:\Xstore_V25\V25_code_workspace\xyz_xservices\xservices-config-dev\res\ssl\.keystore
+dtv.util.net.ssl.trustStore = C:\Xstore_V25\V25_code_workspace\xyz_xservices\xservices-config-dev\res\ssl\.truststore
+dtv.util.sequence.SequenceFactory = com.micros_retail.xservices.WebServiceSequenceFactory
+external.config.dir = C:\Xstore_V25\V25_code_workspace\xyz_xservices\xservices-config-dev\
+file.encoding = UTF-8
+file.separator = \
+intellij.debug.agent = true
+java.class.path = C:\Users\rashmi\AppData\Local\Temp\2\classpath2082175356.jar
+java.class.version = 65.0
+java.home = C:\Program Files\Java\jdk-21.0.8
+java.io.tmpdir = C:\Users\rashmi\AppData\Local\Temp\2\
+java.library.path = C:\Program Files\Java\jdk-21.0.8\bin
+     C:\Windows\Sun\Java\bin
+     C:\Windows\system32
+     C:\Windows
+     C:\Program Files\Java\jdk-21\bin
+     C:\jre\bin
+     C:\Program Files\Common Files\Oracle\Java\javapath
+     C:\INSTALLATIONS\OracleDBHOME193C\bin
+     C:\Windows\system32
+     C:\Windows
+     C:\Windows\System32\Wbem
+     C:\Windows\System32\WindowsPowerShell\v1.0\
+     C:\Windows\System32\OpenSSH\
+     C:\Program Files\PuTTY\
+     C:\Git\cmd
+     C:\Users\rsingh\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin
+     C:\Program Files\apache-ant-1.10.15\bin
+     C:\sqlite\sqlite-tools-win-x64-3470200
+     C:\OpenSSL-Win64\bin
+     C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\
+     C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\
+     C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\
+     C:\Users\rsingh\Downloads\apache-tomcat-10.1.35-windows-x64\apache-tomcat-10.1.35\bin
+     C:\Users\rashmi\AppData\Local\Microsoft\WindowsApps
+     
+     .
+java.naming.provider.url = 192.168.193.221:1099
+java.protocol.handler.pkgs = dtv.pos.protocol
+java.runtime.name = Java(TM) SE Runtime Environment
+java.runtime.version = 21.0.8+12-LTS-250
+java.security.auth.login.config = C:\Xstore_V25\V25_code_workspace\xyz_xservices/xservices-config-dev/login.conf
+java.specification.name = Java Platform API Specification
+java.specification.vendor = Oracle Corporation
+java.specification.version = 21
+java.vendor = Oracle Corporation
+java.vendor.url = https://java.oracle.com/
+java.vendor.url.bug = https://bugreport.java.com/bugreport/
+java.version = 21.0.8
+java.version.date = 2025-07-15
+java.vm.compressedOopsMode = Zero based
+java.vm.info = mixed mode
+java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+java.vm.specification.name = Java Virtual Machine Specification
+java.vm.specification.vendor = Oracle Corporation
+java.vm.specification.version = 21
+java.vm.vendor = Oracle Corporation
+java.vm.version = 21.0.8+12-LTS-250
+jboss.modules.system.pkgs = com.intellij.rt
+jdk.debug = release
+jetty.base = C:\Xstore_V25\V25_code_workspace\xyz_xservices
+jetty.build = 09e23e17430c08ed812993bebc9526dd3e67822a
+jetty.git.hash = 09e23e17430c08ed812993bebc9526dd3e67822a
+jetty.home = C:\Xstore_V25\V25_code_workspace\xyz_xservices
+jetty.logs = C:\Xstore_V25\V25_code_workspace\xyz_xservices/log
+jetty.tag.version = jetty-12.0.18
+jetty.version = 12.0.18
+kotlinx.coroutines.debug.enable.creation.stack.trace = false
+kotlinx.coroutines.debug.enable.flows.stack.trace = true
+kotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace = true
+line.separator = 
+
+log4j.configuration = config/log4j.xml
+native.encoding = Cp1252
+org.omg.PortableInterceptor.ORBInitializerClass.org.omg.PortableInterceptor.RuxitOrbInitializer = 
+os.arch = amd64
+os.name = Windows Server 2019
+os.version = 10.0
+path.separator = 
+stderr.encoding = UTF-8
+stdout.encoding = UTF-8
+sun.arch.data.model = 64
+sun.boot.library.path = C:\Program Files\Java\jdk-21.0.8\bin
+sun.cpu.endian = little
+sun.cpu.isalist = amd64
+sun.io.unicode.encoding = UnicodeLittle
+sun.java.command = org.eclipse.jetty.start.Main --modules=ee10-xservices
+sun.java.launcher = SUN_STANDARD
+sun.jnu.encoding = Cp1252
+sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level = 
+sun.stderr.encoding = UTF-8
+sun.stdout.encoding = UTF-8
+user.country = US
+user.dir = C:\Xstore_V25\V25_code_workspace\xyz_xservices
+user.home = C:\Users\rashmi
+user.language = en
+user.name = rashmi
+user.script = 
+user.timezone = Etc/UTC
+user.variant = 
+xservices.config.LookupCustomerThroughRelate = true
+xservices.config.PackingSlipDefaultCopies = 2
+xservices.config.PromptForTrackingNumber = false
+xservices.config.PromptToPrintPackingSlip = false
+xservices.config.PromptToPrintShippingLabels = false
+xservices.config.PromptToShipItems = false
+xservices.config.directory = C:\Xstore_V25\V25_code_workspace\xyz_xservices/xservices-config-dev
+xstore.config.path.global.extensions = 
+
+************************************************************
+SYSTEM ENVIRONMENT
+************************************************************
+
+=:: = ::\
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\rashmi\AppData\Roaming
+CATALINA_HOME = C:\Users\rsingh\Downloads\apache-tomcat-10.1.35-windows-x64\apache-tomcat-10.1.35
+CLIENTNAME = LTIN602331
+COMPUTERNAME = WINSTOREVM0
+ComSpec = C:\Windows\system32\cmd.exe
+CommonProgramFiles = C:\Program Files\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+DriverData = C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE = C:
+HOMEPATH = \Users\rashmi
+JAVA_HOME = C:\Program Files\Java\jdk-21
+LOCALAPPDATA = C:\Users\rashmi\AppData\Local
+LOGONSERVER = \\WINSTOREVM0
+M2_HOME = C:\Users\rsingh\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9
+MAVEN_HOME = C:\Users\rsingh\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9
+NUMBER_OF_PROCESSORS = 4
+OPENSSL_CONF = C:\cert\sslcert\openssl.cnf
+OS = Windows_NT
+PATHEXT = .COM
+     .EXE
+     .BAT
+     .CMD
+     .VBS
+     .VBE
+     .JS
+     .JSE
+     .WSF
+     .WSH
+     .MSC
+PROCESSOR_ARCHITECTURE = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 106 Stepping 6, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 6a06
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules
+     C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC = C:\Users\Public
+Path = C:\Program Files\Java\jdk-21\bin
+     C:\jre\bin
+     C:\Program Files\Common Files\Oracle\Java\javapath
+     C:\INSTALLATIONS\OracleDBHOME193C\bin
+     C:\Windows\system32
+     C:\Windows
+     C:\Windows\System32\Wbem
+     C:\Windows\System32\WindowsPowerShell\v1.0\
+     C:\Windows\System32\OpenSSH\
+     C:\Program Files\PuTTY\
+     C:\Git\cmd
+     C:\Users\rsingh\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin
+     C:\Program Files\apache-ant-1.10.15\bin
+     C:\sqlite\sqlite-tools-win-x64-3470200
+     C:\OpenSSL-Win64\bin
+     C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\
+     C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\
+     C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\
+     C:\Users\rsingh\Downloads\apache-tomcat-10.1.35-windows-x64\apache-tomcat-10.1.35\bin
+     C:\Users\rashmi\AppData\Local\Microsoft\WindowsApps
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+SESSIONNAME = RDP-Tcp#1
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\rashmi\AppData\Local\Temp\2
+TMP = C:\Users\rashmi\AppData\Local\Temp\2
+USERDOMAIN = WINSTOREVM0
+USERDOMAIN_ROAMINGPROFILE = WINSTOREVM0
+USERNAME = rashmi
+USERPROFILE = C:\Users\rashmi
+windir = C:\Windows
+
+Free space: 337.66 GB
+
+************************************************************
+
+BASE VERSION: 25.0.0.0.20250723220418 BUILT 2025-07-23T22:06:43
+
+2025-11-12 12:22:02,541 INFO  [main] [com.micros_retail.xcenter.bootstrap.Bootstrap] xservices bootstrap step: com.micros_retail.xservices.bootstrap.BootstrapLocationProperties
+2025-11-12 12:22:02,541 INFO  [main] [com.micros_retail.xcenter.bootstrap.Bootstrap] xservices bootstrap step: com.micros_retail.xcenter.bootstrap.BootstrapCiphers
+2025-11-12 12:22:02,541 INFO  [main] [com.micros_retail.xcenter.bootstrap] Setting cipher keyStoreLocation to C:\Xstore_V25\V25_code_workspace\xyz_xservices\xservices-config-dev\res\keys\
+2025-11-12 12:22:02,541 INFO  [main] [com.micros_retail.xcenter.bootstrap] Checking ciphers...
+2025-11-12 12:22:02,869 INFO  [main] [com.micros_retail.xcenter.bootstrap] Finished checking ciphers.
+2025-11-12 12:22:02,869 INFO  [main] [com.micros_retail.xcenter.bootstrap.Bootstrap] xservices bootstrap step: com.micros_retail.xcenter.bootstrap.BootstrapTruststore
+2025-11-12 12:22:02,869 INFO  [main] [com.micros_retail.xcenter.bootstrap] Loading truststore C:\Xstore_V25\V25_code_workspace\xyz_xservices\xservices-config-dev\res\ssl\.truststore
+2025-11-12 12:22:02,937 INFO  [main] [com.micros.xstore.config.impl.AbstractConfigHolder] loading jar:file:/C:/Xstore_V25/V25_code_workspace/release/xservices/WEB-INF/lib/config-shared.jar!/dtv/res/config/NetSecurityConfig.xml
+2025-11-12 12:22:03,354 INFO  [main] [com.micros_retail.xcenter.bootstrap.Bootstrap] xservices bootstrap step: com.micros_retail.xcenter.bootstrap.BootstrapVersions
+2025-11-12 12:22:03,354 INFO  [main] [com.micros_retail.xcenter.bootstrap] Application Version: 25.0.0.0.20250723220418
+2025-11-12 12:22:03,354 INFO  [main] [com.micros_retail.xcenter.bootstrap.Bootstrap] xservices bootstrap step: com.micros_retail.xcenter.bootstrap.BootstrapConfigurationMgr
+2025-11-12 12:22:03,354 INFO  [main] [com.micros_retail.xcenter.bootstrap] xservices local currency [USD]
+2025-11-12 12:22:03,369 INFO  [main] [com.micros_retail.xcenter.bootstrap] 
+**************************************************
+**************************************************
+**** Oracle Retail xservices finished initializing. bootstrap status = OK (923 ms.)
+**************************************************
+**************************************************
+2025-11-12 12:22:03,369 INFO  [main] [org.eclipse.jetty.server.handler.ContextHandler.ROOT] Initializing Spring root WebApplicationContext
+2025-11-12 12:22:03,385 INFO  [main] [org.springframework.web.context.ContextLoader] Root WebApplicationContext: initialization started
+2025-11-12 12:22:05,120 ERROR [main] [org.springframework.web.context.ContextLoader] Context initialization failed
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 2 in XML document from file [C:\Xstore_V25\V25_code_workspace\xyz_pos\cust_config\version1\spring\spring.xml] is invalid
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:411) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:347) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:319) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:184) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:220) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:191) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:131) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:716) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:598) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:394) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:274) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:126) ~[spring-web-6.2.3.jar:6.2.3]
+	at com.micros_retail.xservices.bootstrap.servlet.XservicesContextListener.contextInitialized(XservicesContextListener.java:54) ~[classes/:?]
+	at org.eclipse.jetty.ee10.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:1589) ~[jetty-ee10-servlet-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.ee10.servlet.ServletContextHandler.contextInitialized(ServletContextHandler.java:500) ~[jetty-ee10-servlet-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.ee10.servlet.ServletHandler.initialize(ServletHandler.java:675) ~[jetty-ee10-servlet-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.ee10.servlet.ServletContextHandler.startContext(ServletContextHandler.java:1323) ~[jetty-ee10-servlet-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.ee10.webapp.WebAppContext.startWebapp(WebAppContext.java:1350) ~[jetty-ee10-webapp-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.ee10.webapp.WebAppContext.startContext(WebAppContext.java:1308) ~[jetty-ee10-webapp-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.ee10.servlet.ServletContextHandler.lambda$doStart$0(ServletContextHandler.java:1049) ~[jetty-ee10-servlet-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.server.handler.ContextHandler$ScopedContext.call(ContextHandler.java:1456) [jetty-server-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.ee10.servlet.ServletContextHandler.doStart(ServletContextHandler.java:1046) [jetty-ee10-servlet-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.ee10.webapp.WebAppContext.doStart(WebAppContext.java:504) [jetty-ee10-webapp-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:93) [jetty-util-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [jetty-util-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:120) [jetty-util-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.server.Handler$Abstract.doStart(Handler.java:491) [jetty-server-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.server.handler.StatisticsHandler.doStart(StatisticsHandler.java:66) [jetty-server-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:93) [jetty-util-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [jetty-util-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.server.Server.start(Server.java:643) [jetty-server-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:120) [jetty-util-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.server.Handler$Abstract.doStart(Handler.java:491) [jetty-server-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:584) [jetty-server-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:93) [jetty-util-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:2037) [jetty-xml-12.0.18.jar:12.0.18]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:312) [jetty-start-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.start.Main.start(Main.java:610) [jetty-start-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.start.Main.main(Main.java:82) [jetty-start-12.0.18.jar:12.0.18]
+Caused by: org.xml.sax.SAXParseException: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPIData(XMLScanner.java:745) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanPIData(XMLDocumentFragmentScannerImpl.java:1059) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPI(XMLScanner.java:713) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:891) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:114) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342) ~[?:?]
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:77) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:441) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:399) ~[spring-beans-6.2.3.jar:6.2.3]
+	... 42 more
+2025-11-12 12:22:05,136 WARN  [main] [org.eclipse.jetty.ee10.webapp.WebAppContext] Failed startup of context oeje10w.WebAppContext@67b100fe{Oracle Retail Xstore Services,/,b=file:///C:/Xstore_V25/V25_code_workspace/xyz_xservices/src/main/webapp/,a=AVAILABLE,h=oeje10s.SessionHandler@48d293ee{STARTED}}
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 2 in XML document from file [C:\Xstore_V25\V25_code_workspace\xyz_pos\cust_config\version1\spring\spring.xml] is invalid
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:411) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:347) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:319) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:184) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:220) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:191) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:131) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:716) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:598) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:394) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:274) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:126) ~[spring-web-6.2.3.jar:6.2.3]
+	at com.micros_retail.xservices.bootstrap.servlet.XservicesContextListener.contextInitialized(XservicesContextListener.java:54) ~[classes/:?]
+	at org.eclipse.jetty.ee10.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:1589) ~[jetty-ee10-servlet-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.ee10.servlet.ServletContextHandler.contextInitialized(ServletContextHandler.java:500) ~[jetty-ee10-servlet-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.ee10.servlet.ServletHandler.initialize(ServletHandler.java:675) ~[jetty-ee10-servlet-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.ee10.servlet.ServletContextHandler.startContext(ServletContextHandler.java:1323) ~[jetty-ee10-servlet-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.ee10.webapp.WebAppContext.startWebapp(WebAppContext.java:1350) ~[jetty-ee10-webapp-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.ee10.webapp.WebAppContext.startContext(WebAppContext.java:1308) ~[jetty-ee10-webapp-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.ee10.servlet.ServletContextHandler.lambda$doStart$0(ServletContextHandler.java:1049) ~[jetty-ee10-servlet-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.server.handler.ContextHandler$ScopedContext.call(ContextHandler.java:1456) ~[jetty-server-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.ee10.servlet.ServletContextHandler.doStart(ServletContextHandler.java:1046) ~[jetty-ee10-servlet-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.ee10.webapp.WebAppContext.doStart(WebAppContext.java:504) [jetty-ee10-webapp-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:93) [jetty-util-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [jetty-util-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:120) [jetty-util-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.server.Handler$Abstract.doStart(Handler.java:491) [jetty-server-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.server.handler.StatisticsHandler.doStart(StatisticsHandler.java:66) [jetty-server-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:93) [jetty-util-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [jetty-util-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.server.Server.start(Server.java:643) [jetty-server-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:120) [jetty-util-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.server.Handler$Abstract.doStart(Handler.java:491) [jetty-server-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:584) [jetty-server-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:93) [jetty-util-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:2037) [jetty-xml-12.0.18.jar:12.0.18]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:312) [jetty-start-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.start.Main.start(Main.java:610) [jetty-start-12.0.18.jar:12.0.18]
+	at org.eclipse.jetty.start.Main.main(Main.java:82) [jetty-start-12.0.18.jar:12.0.18]
+Caused by: org.xml.sax.SAXParseException: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPIData(XMLScanner.java:745) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanPIData(XMLDocumentFragmentScannerImpl.java:1059) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPI(XMLScanner.java:713) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:891) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:114) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247) ~[?:?]
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342) ~[?:?]
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:77) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:441) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:399) ~[spring-beans-6.2.3.jar:6.2.3]
+	... 42 more
+2025-11-12 12:22:05,158 INFO  [main] [org.eclipse.jetty.util.ssl.SslContextFactory] x509=X509@1c011855(myrootca-20250414,h=[xstoremobile],a=[],w=[]) for Server@6dc2279c[provider=null,keyStore=file:///C:/Xstore_V25/V25_code_workspace/xyz_xservices/xservices.keystore,trustStore=file:///C:/Xstore_V25/V25_code_workspace/xyz_xservices/xservices-config-dev/res/ssl/.truststore]
+2025-11-12 12:22:05,158 INFO  [main] [org.eclipse.jetty.util.ssl.SslContextFactory] x509=X509@6591f8ea(xstore,h=[winstorevm0, mycompany],a=[/10.0.0.200],w=[]) for Server@6dc2279c[provider=null,keyStore=file:///C:/Xstore_V25/V25_code_workspace/xyz_xservices/xservices.keystore,trustStore=file:///C:/Xstore_V25/V25_code_workspace/xyz_xservices/xservices-config-dev/res/ssl/.truststore]
+2025-11-12 12:22:05,173 INFO  [main] [org.eclipse.jetty.jmx.MetaData] Getter/setter type mismatch for mbean attribute formEncodedMethods in class org.eclipse.jetty.server.HttpConfiguration, attribute will be read-only
+2025-11-12 12:22:05,200 INFO  [main] [org.eclipse.jetty.server.AbstractConnector] Started ServerConnector@704641e3{SSL, (ssl, http/1.1)}{0.0.0.0:8443}
+2025-11-12 12:22:05,209 INFO  [main] [org.eclipse.jetty.server.Server] Started oejs.Server@50756c76{STARTING}[12.0.18,sto=30000] @8738ms
+2025-11-12 12:23:11,111 INFO  [JettyShutdownThread] [org.eclipse.jetty.server.Server] Stopped oejs.Server@50756c76{STOPPING}[12.0.18,sto=30000]
+2025-11-12 12:23:11,111 INFO  [JettyShutdownThread] [org.eclipse.jetty.server.Server] Shutdown oejs.Server@50756c76{STOPPING}[12.0.18,sto=30000]
+2025-11-12 12:23:11,127 INFO  [JettyShutdownThread] [org.eclipse.jetty.server.AbstractConnector] Stopped ServerConnector@704641e3{SSL, (ssl, http/1.1)}{0.0.0.0:8443}
+2025-11-12 12:23:11,127 INFO  [JettyShutdownThread] [org.eclipse.jetty.ee10.servlet.ServletContextHandler] Stopped oeje10w.WebAppContext@67b100fe{Oracle Retail Xstore Services,/,b=file:///C:/Xstore_V25/V25_code_workspace/xyz_xservices/src/main/webapp/,a=UNAVAILABLE,h=oeje10s.SessionHandler@48d293ee{STOPPED}}

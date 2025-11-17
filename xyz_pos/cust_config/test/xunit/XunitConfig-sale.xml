@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<XunitConfig>
+    <Parameter name="XunitDelay" value="1000"/>
+    <TestSuite name="MY_TEST_SUITE_Rashmi">
+        <RunTest description="Run test case TEST_CASE.1" testName="TEST_CASE.1"/>
+    </TestSuite>
+    <TestCase applicationKey="REGISTER" name="TEST_CASE.1">
+        <TestStep action="ACCEPT" data="1" description="Enter 1 (PromptUserIdOp)"/>
+        <TestStep action="ACCEPT" data="y" description="Enter y (PromptPasswordOp)"/>
+        <TestStep action="CONTINUE" description="CONTINUE (LluCustomerSearchOp)">
+            <Form name="CUSTOMER_SEARCH"/>
+        </TestStep>
+        <TestStep action="ACCEPT" data="1020" description="Enter 1020 (LluPromptItemScanOp)"/>
+        <TestStep action="PRE_TENDERING" description="PRE_TENDERING (LluPromptItemScanOp)"/>
+        <TestStep action="YES_MULTIPLE_BAG" description="YES_MULTIPLE_BAG (LluPromptForShopperBagOp)"/>
+        <TestStep action="ACCEPT" description="ACCEPT (LluCaptureShopperBagQtyOp)">
+            <Form name="LLU_CAPTURE_SHOPPER_BAG_QTY"/>
+        </TestStep>
+        <TestStep action="ACCEPT" description="ACCEPT (LluAddShopperBagItemOp)"/>
+        <TestStep action="TENDER_LOCAL_CURRENCY" description="TENDER_LOCAL_CURRENCY (PromptTenderMenuOp)"/>
+        <TestStep action="ACCEPT0" data="80.00" description="Enter 80.00 (CashSuggestionPromptTenderAmtOp)"/>
+        <TestStep action="SKIP_PRINTING" description="SKIP_PRINTING (LluFRCheckSaleCompleteOp)"/>
+        <TestStep action="CONTINUE" description="CONTINUE (LluCustomerSearchOp)">
+            <Form name="CUSTOMER_SEARCH"/>
+        </TestStep>
+        <TestStep action="ACCEPT" description="ACCEPT (LluDisplayChangeDueOp)"/>
+        <TestStep action="ACCEPT" description="ACCEPT (NotifyTenderMinValueInTillOp)"/>
+    </TestCase>
+</XunitConfig>

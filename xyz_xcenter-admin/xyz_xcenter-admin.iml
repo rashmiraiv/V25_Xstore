@@ -1,0 +1,2501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="file://$MODULE_DIR$/resources" />
+    <libelement value="file:///release/xadmin/WEB-INF/classes" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/config.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-auth-sv.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/config-auto-populator.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/xcenter-shared.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-countrypack.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-auth-impl.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/pos.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-pos-protected.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-auth-core.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-xst-crm-relate.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-xst-crm.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-xst-opera.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-avs-qas.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-avs.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-inv-sim.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-xst-xom-locate.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-xst-xom.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-inv.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-itm-rxm.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-itm.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-pdfsignature-oracle.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-tax-vertex.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-tax.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-xom-delivery.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-pdfsignature.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-posframework.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-authentication-idcs.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-hardware.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-barcode.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-bitmap.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/filetransfer-service.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/xcenter-admin-dtx.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/config-service-discounts.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/config-service-items.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/config-service-prices.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/config-service-taxes.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/config-service-tenders.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/config-shared.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-util-measurement.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-service-discounts.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-service-items.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-service-prices.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-service-taxes.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-service-tenders.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/fileverifier.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-email-rcpt.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-service.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-util-sequence.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-scope.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-dtx.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-dtx-cleandto.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-dtx-cleanbean.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-dtx-cleandtomapper.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/xcenter-admin-entities.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-data2.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-ipc.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-jmxutil.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-util-net.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-xstoregwt-util.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-cheetah.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-i18n.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/config-objects.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/xcenter-jndi-datasource.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/xcenter-secure-store-service.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/xcenter-credentials-opss.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-deployment-objects.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-event.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-password.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-pricing2.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/xcenter-proxy-service.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-ui-graphics.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-jna.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-util-gs1-databar.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-util.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-util-filesync.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-util-metric.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jakarta.activation-api-2.1.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-service-dist.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jakarta.annotation-api-3.0.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jakarta.inject-api-2.0.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jakarta.jws-api-2.1.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jakarta.xml.bind-api-4.0.2.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jakarta.xml.soap-api-3.0.2.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jakarta.xml.ws-api-4.0.2.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jaxb-impl-4.0.5.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jaxb-core-4.0.2.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/txw2-4.0.2.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/saaj-impl-3.0.4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/streambuffer-2.1.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jaxws-rt-4.0.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/management-api-3.2.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/gmbal-4.0.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/ha-api-3.1.13.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/mimepull-1.10.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/stax-ex-2.1.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/istack-commons-runtime-4.2.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/gwt-dnd-3.3.4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/oraclepki-23.7.0.25.01.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/osdt_cert-19.18.0.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/osdt_core-19.18.0.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/xmlparserv2_sans_jaxp_services-23.7.0.25.01.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/gwt-traction-1.6.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/commons-fileupload2-core-2.0.0-M4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/commons-fileupload2-jakarta-servlet6-2.0.0-M4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/noto-sans-2.007.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/oracle-sans-1.002.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/oracle-sans-cd-1.001.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/parsson-1.1.7.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jersey-hk2-3.1.10.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/hibernate-validator-8.0.2.Final.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/objenesis-3.4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/mr-test.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jakarta.persistence-api-3.1.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/eftlink-25.0.0.36.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/spring-tx-6.2.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jakarta.json-api-2.1.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/core-3.5.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/javase-3.5.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jbars.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/javapos-1.15.4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-version.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-puma.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jackson-annotations-2.18.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dtv-upgrader.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/i18nAPI_v3-12.2.6.4.0-20RELEASE00.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dvt-jclient-12.2.1.4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dvt-utils-12.2.1.4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/share-12.2.1.4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/orai18n-collation-19.3.0.0.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jakarta.transaction-api-2.0.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/commons-pool2-2.12.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/spring-bridge-3.1.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jersey-server-3.1.10.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jersey-spring6-3.1.10.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/asm-9.7.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/quartz-2.5.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/log4j-api-2.22.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/log4j-core-2.22.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/log4j-jcl-2.22.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/log4j-jul-2.22.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/log4j-slf4j2-impl-2.22.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jackson-jaxrs-base-2.18.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jackson-module-jakarta-xmlbind-annotations-2.18.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/osgi-resource-locator-3.0.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jersey-container-servlet-core-3.1.10.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jersey-entity-filtering-3.1.10.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jersey-media-jaxb-3.1.10.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jersey-media-json-jackson-3.1.10.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/osgi.core-7.0.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jackson-databind-2.18.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/coherence-14.1.1-2206-12.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/mssql-jdbc-12.10.1.jre11.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/ojdbc17-23.7.0.25.01.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/ucp17-23.7.0.25.01.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/commons-beanutils-1.11.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jakarta.ws.rs-api-4.0.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/commons-configuration2-2.11.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/commons-csv-1.14.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/slf4j-api-2.0.9.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jackson-core-2.18.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/swagger-annotations-2.2.28.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/spring-aop-6.2.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/hk2-api-3.1.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/hk2-locator-3.1.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/hk2-utils-3.1.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jersey-common-3.1.10.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/ons-23.7.0.25.01.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/simplefan-23.7.0.25.01.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/commons-lang3-3.17.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/commons-codec-1.17.2.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jersey-proxy-client-3.1.10.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dozer-core-7.0.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/gwt-servlet-jakarta-2.12.2.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jakarta.el-api-6.0.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/fontbox-3.0.4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/pdfbox-3.0.4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/pdfbox-io-3.0.4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/velocity-engine-core-2.4.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jakarta.el-4.0.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/sshd-common-2.15.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/sshd-core-2.15.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/sshd-sftp-2.15.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/nimbus-jose-jwt-10.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jersey-client-3.1.10.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jersey-apache5-connector-3.1.10.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/httpclient5-5.5.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/httpcore5-5.3.4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/httpcore5-h2-5.3.4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/failureaccess-1.0.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/guava-33.4.8-jre.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/xdo-core-12.2.6.4.0-20RELEASE00.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/xdoparser11g-12.2.1.0.0-171018.1543.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jakarta.mail-api-2.1.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/angus-mail-2.0.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/angus-activation-2.0.2.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/commons-io-2.19.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/commons-logging-1.3.5.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/commons-collections4-4.5.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/commons-text-1.13.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/log4j-1.2-api-2.22.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/spring-beans-6.2.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/spring-context-6.2.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/spring-context-support-6.2.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/spring-core-6.2.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/spring-expression-6.2.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/spring-web-6.2.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jakarta.websocket-api-2.2.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jakarta.websocket-client-api-2.2.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/micrometer-commons-1.14.4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/micrometer-core-1.14.4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/micrometer-observation-1.14.4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/micrometer-registry-prometheus-1.14.4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/prometheus-metrics-config-1.3.6.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/prometheus-metrics-core-1.3.6.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/prometheus-metrics-model-1.3.6.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/prometheus-metrics-tracer-initializer-1.3.6.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/prometheus-metrics-tracer-common-1.3.6.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/prometheus-metrics-exposition-formats-1.3.6.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/prometheus-metrics-exposition-textformats-1.3.6.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/HdrHistogram-2.1.12.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/LatencyUtils-2.0.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jakarta.servlet-api-6.0.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/hibernate-core-6.6.11.Final.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/cglib-3.3.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/classmate-1.5.1.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jackson-dataformat-yaml-2.18.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jackson-datatype-jsr310-2.18.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/json-path-2.9.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/classgraph-4.8.165.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/swagger-core-jakarta-2.2.28.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/swagger-integration-2.2.28.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/swagger-jaxrs2-jakarta-2.2.28.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/swagger-models-2.2.28.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jakarta.validation-api-3.0.2.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/byte-buddy-1.17.5.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/datapriv-1.1.0.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/dom4j-2.1.4.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/antlr4-runtime-4.13.2.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jersey-media-multipart-3.1.10.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/hibernate-commons-annotations-7.0.3.Final.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/javassist-3.30.1-GA.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jandex-3.2.7.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/jboss-logging-3.4.3.Final.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/spring-jdbc-6.2.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/snakeyaml-2.3.jar" />
+    <libelement value="file:///release/xadmin/WEB-INF/lib/xstream-1.4.21.jar" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/test" expected_position="0" />
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="1" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="21" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="resources">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="classes">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="xyz_xcenter-shared" />
+    <orderEntry type="module" module-name="xyz_pos" />
+    <orderEntry type="module-library">
+      <library name="config.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/config.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-auth-sv.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-auth-sv.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="config-auto-populator.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/config-auto-populator.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xcenter-shared.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/xcenter-shared.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-countrypack.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-countrypack.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-auth-impl.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-auth-impl.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pos.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/pos.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-pos-protected.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-pos-protected.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-auth-core.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-auth-core.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-xst-crm-relate.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-xst-crm-relate.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-xst-crm.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-xst-crm.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-xst-opera.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-xst-opera.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-avs-qas.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-avs-qas.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-avs.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-avs.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-inv-sim.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-inv-sim.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-xst-xom-locate.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-xst-xom-locate.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-xst-xom.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-xst-xom.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-inv.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-inv.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-itm-rxm.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-itm-rxm.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-itm.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-itm.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-pdfsignature-oracle.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-pdfsignature-oracle.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-tax-vertex.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-tax-vertex.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-tax.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-tax.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-xom-delivery.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-xom-delivery.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-pdfsignature.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-pdfsignature.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-posframework.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-posframework.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-authentication-idcs.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-authentication-idcs.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-hardware.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-hardware.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-barcode.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-barcode.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-bitmap.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-bitmap.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="filetransfer-service.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/filetransfer-service.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xcenter-admin-dtx.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/xcenter-admin-dtx.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="config-service-discounts.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/config-service-discounts.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="config-service-items.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/config-service-items.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="config-service-prices.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/config-service-prices.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="config-service-taxes.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/config-service-taxes.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="config-service-tenders.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/config-service-tenders.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="config-shared.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/config-shared.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-util-measurement.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-util-measurement.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-service-discounts.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-service-discounts.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-service-items.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-service-items.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-service-prices.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-service-prices.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-service-taxes.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-service-taxes.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-service-tenders.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-service-tenders.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fileverifier.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/fileverifier.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-email-rcpt.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-email-rcpt.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-service.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-service.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-util-sequence.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-util-sequence.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-scope.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-scope.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-dtx.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-dtx.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-dtx-cleandto.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-dtx-cleandto.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-dtx-cleanbean.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-dtx-cleanbean.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-dtx-cleandtomapper.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-dtx-cleandtomapper.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xcenter-admin-entities.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/xcenter-admin-entities.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-data2.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-data2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-ipc.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-ipc.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-jmxutil.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-jmxutil.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-util-net.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-util-net.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-xstoregwt-util.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-xstoregwt-util.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-cheetah.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-cheetah.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-i18n.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-i18n.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="config-objects.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/config-objects.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xcenter-jndi-datasource.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/xcenter-jndi-datasource.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xcenter-secure-store-service.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/xcenter-secure-store-service.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xcenter-credentials-opss.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/xcenter-credentials-opss.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-deployment-objects.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-deployment-objects.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-event.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-event.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-password.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-password.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-pricing2.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-pricing2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xcenter-proxy-service.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/xcenter-proxy-service.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-ui-graphics.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-ui-graphics.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-jna.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-jna.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-util-gs1-databar.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-util-gs1-databar.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-util.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-util.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-util-filesync.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-util-filesync.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-util-metric.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-util-metric.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jakarta.activation-api-2.1.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jakarta.activation-api-2.1.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-service-dist.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-service-dist.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jakarta.annotation-api-3.0.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jakarta.annotation-api-3.0.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jakarta.inject-api-2.0.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jakarta.inject-api-2.0.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jakarta.jws-api-2.1.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jakarta.jws-api-2.1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jakarta.xml.bind-api-4.0.2.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jakarta.xml.bind-api-4.0.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jakarta.xml.soap-api-3.0.2.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jakarta.xml.soap-api-3.0.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jakarta.xml.ws-api-4.0.2.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jakarta.xml.ws-api-4.0.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxb-impl-4.0.5.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jaxb-impl-4.0.5.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxb-core-4.0.2.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jaxb-core-4.0.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="txw2-4.0.2.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/txw2-4.0.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="saaj-impl-3.0.4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/saaj-impl-3.0.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="streambuffer-2.1.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/streambuffer-2.1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxws-rt-4.0.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jaxws-rt-4.0.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="management-api-3.2.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/management-api-3.2.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="gmbal-4.0.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/gmbal-4.0.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ha-api-3.1.13.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/ha-api-3.1.13.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mimepull-1.10.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/mimepull-1.10.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="stax-ex-2.1.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/stax-ex-2.1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="istack-commons-runtime-4.2.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/istack-commons-runtime-4.2.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="gwt-dnd-3.3.4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/gwt-dnd-3.3.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="oraclepki-23.7.0.25.01.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/oraclepki-23.7.0.25.01.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="osdt_cert-19.18.0.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/osdt_cert-19.18.0.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="osdt_core-19.18.0.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/osdt_core-19.18.0.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xmlparserv2_sans_jaxp_services-23.7.0.25.01.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/xmlparserv2_sans_jaxp_services-23.7.0.25.01.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="gwt-traction-1.6.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/gwt-traction-1.6.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-fileupload2-core-2.0.0-M4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/commons-fileupload2-core-2.0.0-M4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-fileupload2-jakarta-servlet6-2.0.0-M4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/commons-fileupload2-jakarta-servlet6-2.0.0-M4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="noto-sans-2.007.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/noto-sans-2.007.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="oracle-sans-1.002.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/oracle-sans-1.002.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="oracle-sans-cd-1.001.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/oracle-sans-cd-1.001.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="parsson-1.1.7.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/parsson-1.1.7.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jersey-hk2-3.1.10.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jersey-hk2-3.1.10.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hibernate-validator-8.0.2.Final.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/hibernate-validator-8.0.2.Final.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="objenesis-3.4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/objenesis-3.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mr-test.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/mr-test.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jakarta.persistence-api-3.1.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jakarta.persistence-api-3.1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="eftlink-25.0.0.36.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/eftlink-25.0.0.36.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-tx-6.2.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/spring-tx-6.2.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jakarta.json-api-2.1.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jakarta.json-api-2.1.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="core-3.5.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/core-3.5.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javase-3.5.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/javase-3.5.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbars.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jbars.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javapos-1.15.4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/javapos-1.15.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-version.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-version.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-puma.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-puma.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jackson-annotations-2.18.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jackson-annotations-2.18.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dtv-upgrader.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dtv-upgrader.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="i18nAPI_v3-12.2.6.4.0-20RELEASE00.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/i18nAPI_v3-12.2.6.4.0-20RELEASE00.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dvt-jclient-12.2.1.4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dvt-jclient-12.2.1.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dvt-utils-12.2.1.4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dvt-utils-12.2.1.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="share-12.2.1.4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/share-12.2.1.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="orai18n-collation-19.3.0.0.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/orai18n-collation-19.3.0.0.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jakarta.transaction-api-2.0.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jakarta.transaction-api-2.0.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-pool2-2.12.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/commons-pool2-2.12.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-bridge-3.1.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/spring-bridge-3.1.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jersey-server-3.1.10.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jersey-server-3.1.10.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jersey-spring6-3.1.10.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jersey-spring6-3.1.10.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="asm-9.7.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/asm-9.7.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="quartz-2.5.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/quartz-2.5.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-api-2.22.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/log4j-api-2.22.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-core-2.22.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/log4j-core-2.22.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-jcl-2.22.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/log4j-jcl-2.22.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-jul-2.22.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/log4j-jul-2.22.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-slf4j2-impl-2.22.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/log4j-slf4j2-impl-2.22.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jackson-jaxrs-base-2.18.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jackson-jaxrs-base-2.18.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jackson-module-jakarta-xmlbind-annotations-2.18.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jackson-module-jakarta-xmlbind-annotations-2.18.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="osgi-resource-locator-3.0.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/osgi-resource-locator-3.0.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jersey-container-servlet-core-3.1.10.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jersey-container-servlet-core-3.1.10.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jersey-entity-filtering-3.1.10.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jersey-entity-filtering-3.1.10.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jersey-media-jaxb-3.1.10.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jersey-media-jaxb-3.1.10.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jersey-media-json-jackson-3.1.10.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jersey-media-json-jackson-3.1.10.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="osgi.core-7.0.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/osgi.core-7.0.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jackson-databind-2.18.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jackson-databind-2.18.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="coherence-14.1.1-2206-12.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/coherence-14.1.1-2206-12.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mssql-jdbc-12.10.1.jre11.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/mssql-jdbc-12.10.1.jre11.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ojdbc17-23.7.0.25.01.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/ojdbc17-23.7.0.25.01.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ucp17-23.7.0.25.01.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/ucp17-23.7.0.25.01.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-beanutils-1.11.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/commons-beanutils-1.11.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jakarta.ws.rs-api-4.0.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jakarta.ws.rs-api-4.0.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-configuration2-2.11.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/commons-configuration2-2.11.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-csv-1.14.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/commons-csv-1.14.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slf4j-api-2.0.9.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/slf4j-api-2.0.9.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jackson-core-2.18.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jackson-core-2.18.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="swagger-annotations-2.2.28.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/swagger-annotations-2.2.28.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-aop-6.2.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/spring-aop-6.2.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hk2-api-3.1.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/hk2-api-3.1.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hk2-locator-3.1.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/hk2-locator-3.1.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hk2-utils-3.1.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/hk2-utils-3.1.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jersey-common-3.1.10.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jersey-common-3.1.10.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ons-23.7.0.25.01.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/ons-23.7.0.25.01.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="simplefan-23.7.0.25.01.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/simplefan-23.7.0.25.01.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-lang3-3.17.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/commons-lang3-3.17.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-codec-1.17.2.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/commons-codec-1.17.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jersey-proxy-client-3.1.10.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jersey-proxy-client-3.1.10.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dozer-core-7.0.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dozer-core-7.0.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="gwt-servlet-jakarta-2.12.2.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/gwt-servlet-jakarta-2.12.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jakarta.el-api-6.0.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jakarta.el-api-6.0.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fontbox-3.0.4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/fontbox-3.0.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pdfbox-3.0.4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/pdfbox-3.0.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pdfbox-io-3.0.4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/pdfbox-io-3.0.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="velocity-engine-core-2.4.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/velocity-engine-core-2.4.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jakarta.el-4.0.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jakarta.el-4.0.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sshd-common-2.15.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/sshd-common-2.15.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sshd-core-2.15.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/sshd-core-2.15.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sshd-sftp-2.15.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/sshd-sftp-2.15.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="nimbus-jose-jwt-10.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/nimbus-jose-jwt-10.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jersey-client-3.1.10.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jersey-client-3.1.10.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jersey-apache5-connector-3.1.10.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jersey-apache5-connector-3.1.10.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="httpclient5-5.5.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/httpclient5-5.5.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="httpcore5-5.3.4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/httpcore5-5.3.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="httpcore5-h2-5.3.4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/httpcore5-h2-5.3.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="failureaccess-1.0.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/failureaccess-1.0.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="guava-33.4.8-jre.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/guava-33.4.8-jre.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xdo-core-12.2.6.4.0-20RELEASE00.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/xdo-core-12.2.6.4.0-20RELEASE00.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xdoparser11g-12.2.1.0.0-171018.1543.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/xdoparser11g-12.2.1.0.0-171018.1543.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jakarta.mail-api-2.1.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jakarta.mail-api-2.1.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="angus-mail-2.0.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/angus-mail-2.0.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="angus-activation-2.0.2.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/angus-activation-2.0.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-io-2.19.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/commons-io-2.19.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-logging-1.3.5.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/commons-logging-1.3.5.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-collections4-4.5.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/commons-collections4-4.5.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-text-1.13.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/commons-text-1.13.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-1.2-api-2.22.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/log4j-1.2-api-2.22.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-beans-6.2.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/spring-beans-6.2.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-context-6.2.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/spring-context-6.2.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-context-support-6.2.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/spring-context-support-6.2.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-core-6.2.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/spring-core-6.2.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-expression-6.2.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/spring-expression-6.2.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-web-6.2.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/spring-web-6.2.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jakarta.websocket-api-2.2.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jakarta.websocket-api-2.2.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jakarta.websocket-client-api-2.2.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jakarta.websocket-client-api-2.2.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="micrometer-commons-1.14.4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/micrometer-commons-1.14.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="micrometer-core-1.14.4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/micrometer-core-1.14.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="micrometer-observation-1.14.4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/micrometer-observation-1.14.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="micrometer-registry-prometheus-1.14.4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/micrometer-registry-prometheus-1.14.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="prometheus-metrics-config-1.3.6.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/prometheus-metrics-config-1.3.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="prometheus-metrics-core-1.3.6.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/prometheus-metrics-core-1.3.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="prometheus-metrics-model-1.3.6.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/prometheus-metrics-model-1.3.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="prometheus-metrics-tracer-initializer-1.3.6.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/prometheus-metrics-tracer-initializer-1.3.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="prometheus-metrics-tracer-common-1.3.6.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/prometheus-metrics-tracer-common-1.3.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="prometheus-metrics-exposition-formats-1.3.6.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/prometheus-metrics-exposition-formats-1.3.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="prometheus-metrics-exposition-textformats-1.3.6.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/prometheus-metrics-exposition-textformats-1.3.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="HdrHistogram-2.1.12.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/HdrHistogram-2.1.12.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="LatencyUtils-2.0.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/LatencyUtils-2.0.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jakarta.servlet-api-6.0.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jakarta.servlet-api-6.0.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hibernate-core-6.6.11.Final.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/hibernate-core-6.6.11.Final.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="cglib-3.3.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/cglib-3.3.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="classmate-1.5.1.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/classmate-1.5.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jackson-dataformat-yaml-2.18.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jackson-dataformat-yaml-2.18.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jackson-datatype-jsr310-2.18.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jackson-datatype-jsr310-2.18.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="json-path-2.9.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/json-path-2.9.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="classgraph-4.8.165.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/classgraph-4.8.165.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="swagger-core-jakarta-2.2.28.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/swagger-core-jakarta-2.2.28.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="swagger-integration-2.2.28.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/swagger-integration-2.2.28.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="swagger-jaxrs2-jakarta-2.2.28.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/swagger-jaxrs2-jakarta-2.2.28.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="swagger-models-2.2.28.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/swagger-models-2.2.28.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jakarta.validation-api-3.0.2.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jakarta.validation-api-3.0.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="byte-buddy-1.17.5.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/byte-buddy-1.17.5.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="datapriv-1.1.0.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/datapriv-1.1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dom4j-2.1.4.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/dom4j-2.1.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="antlr4-runtime-4.13.2.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/antlr4-runtime-4.13.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jersey-media-multipart-3.1.10.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jersey-media-multipart-3.1.10.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hibernate-commons-annotations-7.0.3.Final.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/hibernate-commons-annotations-7.0.3.Final.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javassist-3.30.1-GA.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/javassist-3.30.1-GA.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jandex-3.2.7.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jandex-3.2.7.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-logging-3.4.3.Final.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/jboss-logging-3.4.3.Final.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-jdbc-6.2.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/spring-jdbc-6.2.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="snakeyaml-2.3.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/snakeyaml-2.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xstream-1.4.21.jar">
+        <CLASSES>
+          <root url="file:///release/xadmin/WEB-INF/lib/xstream-1.4.21.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

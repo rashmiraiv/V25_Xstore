@@ -1,0 +1,20 @@
+# Edit this file to override properties in the Ant scripts which create/manipulate Xstore databases
+
+# set eclipse build mode
+build.type=eclipse
+
+# retrieve Xstore details
+db.custId=${dtv.CustomerId}
+db.data.orgId=${dtv.location.organizationId}
+db.data.rtlLocId=${dtv.location.storeNumber}
+
+# set oner info
+db.name.owner=_${db.data.rtlLocId}${db.name.extra}
+
+# set the location of the resulting DB files (MSSQL)
+db.path.data=C:\\Program Files\\Microsoft SQL Server\\MSSQL12.MSSQLSERVER\\MSSQL\\DATA
+
+db.data.countryId=US
+db.data.currencyId=USD
+
+db.server=localhost

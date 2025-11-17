@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/release/xstore-bin/lib/jetty-start-12.0.18.jar"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.eclipse.jetty.start.Main"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--modules=ee10-mobile"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="xyz_pos"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Djetty.home=${workspace_loc:xyz_pos} -Djetty.base=${workspace_loc:xyz_pos} -Djetty.keystore.file=${workspace_loc:xyz_pos}/mobile.keystore -Dspring.profiles.active=xstore -Dexternal.properties.file=jetty.mobile.properties -Ddtv.system.properties.location=${workspace_loc:xyz_pos}/dev/local/xstorem.properties -Dxstore.application.type=MOBILE_SERVER -Ddtv.util.crypto.SecretKeyCipherManager.keyStoreDirectory=${workspace_loc:xyz_pos}/res/keys -Ddtv.util.crypto.DtvKeyStoreManager.keyStoreDirectory=${workspace_loc:xyz_pos}/res/keys -Xms512m -Xmx1024m  -XX:+ForceTimeHighResolution -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=512m  -Djava.util.logging.manager=org.apache.logging.log4j.jul.LogManager -Ddtv.util.config.ConfigPathPropertySourceImpl=dtv.dev.config.DevConfigPathPropertySource -Ddev.configPath.properties.location=${workspace_loc:xyz_pos}/dev/local"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${workspace_loc:xyz_xstore}"/>
+</launchConfiguration>

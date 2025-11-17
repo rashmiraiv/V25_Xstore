@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XunitConfig xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="XunitConfig.xsd">
+
+  <AssertType name="CANCELLED_TRANS" sequenceType="Transaction" evaluator="%^CANCELLED_TRANS.TransSeq!" />
+  <AssertType name="COMPLETED_TRANS" sequenceType="Transaction" evaluator="%^COMPLETED_TRANS.TransSeq!" />
+  <AssertType name="CUSTOMER" sequenceType="Party" evaluator="%^CUSTOMERS.PartyId!" />
+  <AssertType name="LAYAWAY" sequenceType="LAYAWAY" evaluator="%^OPEN_LAYAWAYS.CustAcctId!" />
+  <AssertType name="ONHOLD" sequenceType="ONHOLD" evaluator="%^ALL_ONHOLDS.CustAcctId!" />
+  <AssertType name="ORDER" sequenceType="ORDER" evaluator="%^ALL_ORDERS.OrderId!" />
+  <AssertType name="RAINCHECK" sequenceType="RAINCHECK" evaluator="%^RAIN_CHECKS.RainCheckId!" />
+  <AssertType name="SEND_SALE" sequenceType="SEND_SALE" evaluator="%^ALL_SEND_SALES.CustAcctId!" />
+  <AssertType name="SHIFT" sequenceType="GUID" evaluator="%^SHIFTS.ShiftId!" />
+  <AssertType name="SPECIAL_ORDER_CUST" sequenceType="SP_ORDER" evaluator="%^CLOSED_SPECIAL_ORDERS.CustAcctId!" />
+  <AssertType name="SPECIAL_ORDER_STORE" sequenceType="SP_ORDER" evaluator="%^OPEN_SPECIAL_ORDERS.CustAcctId!" />
+  <AssertType name="SUSPENDED_TRANS" sequenceType="Transaction" evaluator="%^SUSPENDED_TRANS.TransSeq!" />
+  <AssertType name="TASK" sequenceType="ASSOCIATE_TASK" evaluator="%^ALL_EMPLOYEE_TASKS.TaskId!" />
+  <AssertType name="TIMEOFF" sequenceType="GUID" evaluator="%^TIMEOFF.TimeOffId!" />
+  <AssertType name="WARRANTY" sequenceType="WARRANTY" evaluator="%^NEW_WARRANTY.Number!" />
+  <AssertType name="WORK_ORDER" sequenceType="WORK_ORDER" evaluator="%^OPEN_WORK_ORDERS.CustAcctId!" />
+  
+  <AssertType name="PRESALE" sequenceType="PRESALE" evaluator="%^ALL_PRESALES.CustAcctId!" />
+
+</XunitConfig>

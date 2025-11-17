@@ -1,0 +1,15 @@
+<!-- see http://ant.apache.org/manual/index.html for the Ant manual -->
+<project name="dev-local-setup" default="copy-dev-templates" basedir=".">
+	<property name="local.dir" value="${basedir}/dev/local" />
+	<property name="local.db.dir" value="${local.dir}/db" />
+	
+  <target name="copy-dev-templates">
+    <copy file="${local.db.dir}/mssql/build.properties.template" tofile="${local.db.dir}/mssql/build.properties" />
+    <copy file="${local.db.dir}/mssql-unicode/build.properties.template" tofile="${local.db.dir}/mssql-unicode/build.properties" />
+    <copy file="${local.db.dir}/oracle/build.properties.template" tofile="${local.db.dir}/oracle/build.properties" />
+    <copy file="${local.db.dir}/oraclepdb/build.properties.template" tofile="${local.db.dir}/oraclepdb/build.properties" />
+    <copy file="${local.dir}/configPath.properties.template" tofile="${local.dir}/configPath.properties" />
+    <copy file="${local.dir}/system.properties.template" tofile="${local.dir}/system.properties" />
+  	<copy file="${local.dir}/xstore.properties.template" tofile="${local.dir}/xstore.properties" />
+  </target>
+</project>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XunitConfig xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="XunitConfig.xsd">
+
+  <!-- Login Information -->
+  <Parameter name="userid" value="100" />
+  <Parameter name="password" value="1" />
+  <Parameter name="cashierUserId" value="500" />
+  <Parameter name="cashierPassword" value="1" />
+    <Parameter name="bankDepositUserId" value="400" />
+  <Parameter name="bankDepositPassword" value="1" />
+    <Parameter name="discountuserid" value="100" />
+  <Parameter name="discountpassword" value="1" />
+   <Parameter name="manageruserid" value="200" />
+  <Parameter name="managerpassword" value="1" />
+  
+
+  <!-- Location Information -->
+  <Parameter name="rtlLocId" value="${dtv.location.storeNumber}" />
+  <Parameter name="wkstnId" value="${dtv.location.terminalNumber}" />
+  <Parameter name="country" value="%^CURRENT_STORE.Country" />
+
+  <!-- Currency Ids -->
+  <Parameter name="currencyId" value="@invokeConfigMgr(getLocalCurrencyId)" />
+  <Parameter name="localCurrency" value="!{currencyId}_CURRENCY" />
+  <Parameter name="foreignRoundedCurrency" value="EUR_CURRENCY" />
+  <Parameter name="foreignCurrency" value="EUR_CURRENCY" />
+  <Parameter name="foreignCurrencyOverTenderAmt" value="40" />
+
+  <!-- Blind Return Threshhold -->
+  <Parameter name="threshold" value="@add(@checkSysConfig(ItemReturn---BlindReturns---AmountThreshold), 10)" />
+
+  <!-- Tender exchange -->
+  <Parameter name="incomingExchangeTender" value="MALL_CERTIFICATE" />
+  <Parameter name="outgoingExchangeTender" value="!{localCurrency}" />
+
+  <!-- Inventory Buckets -->
+  <Parameter name="defaultLocation" value="DEFAULT" />
+  <Parameter name="atVendor" value="AT_VENDOR" />
+  <Parameter name="layaway" value="LAYAWAY" />
+  <Parameter name="onHand" value="ON_HAND" />
+  <Parameter name="onHold" value="ONHOLD" />
+  <Parameter name="order" value="ORDER" />
+  <Parameter name="presale" value="PRESALE" />
+  <Parameter name="specialOrder" value="SPECIAL_ORDER" />
+  <Parameter name="workOrder" value="WORK_ORDER" />
+
+  <!-- Inventory Adjustment Reason Codes -->
+  <Parameter name="damaged" value="Damaged" />
+  <Parameter name="theft" value="Theft (Found Empty Package)" />
+  <Parameter name="donation" value="Donation 1" />
+  <Parameter name="returnToStock" value="Return to Stock" />
+
+  <!-- Receiving -->
+  <Parameter name="receivingValidSubTypeNew" value="ASN" />
+
+  <!-- Shipping -->
+  <Parameter name="shippingValidSubTypeNew" value="DEFECTIVE_RETURN" />
+  <Parameter name="defaultShippingMethod" value="@getDefaultShippingMethod" />
+  <Parameter name="trackingNo" value="1Z77230435" />
+
+  <!-- Inventory Transfer  -->
+  <Parameter name="moved" value="Item Transfer" />
+  <Parameter name="shipped" value="Item Shipped" />
+  <Parameter name="transfer" value="Item Transfer" />
+
+  <!-- Gift Card -->
+  <Parameter name="giftcard" value="@generateCardNumber(PAYMENTECH_GIFT_CARD)" />
+  
+  <!-- Credit Card -->
+  <Parameter name="creditCardNumber" value="@generateCardNumber(VISA1)" />
+  <Parameter name="creditCardCid" value="@generateCardNumber(VISA_CID)" />
+  <Parameter name="creditCardTender" value="VISA" />
+  <Parameter name="expdate" value="1099" />
+  <!-- Verified Return with CC -->
+  <Parameter name="mastercardNumber" value="@generateCardNumber(MASTERCARD1)" />
+  <Parameter name="mastercardCid" value="@generateCardNumber(MASTERCARD_CID)" />
+  <Parameter name="mastercardTender" value="MASTERCARD" />
+  <Parameter name="visa2Number" value="@generateCardNumber(VISA1)" />
+  <Parameter name="visa2Cid" value="@generateCardNumber(VISA_CID)" />
+  <Parameter name="visa2Tender" value="VISA" />
+
+  <!-- Check -->
+  <Parameter name="micr" value="1234567123456789126" />
+  <Parameter name="checkNo" value="123" />
+  <Parameter name="idNumber" value="RK123456" />
+  <Parameter name="birthDate" value="12/15/1954" />
+
+  <!-- Merchandise Credit Card -->
+  <Parameter name="merchCardNumber" value="@generateCardNumber(MERCH_CC)" />
+
+  <!-- Manual Authorization Number -->
+  <Parameter name="authNumber" value="123456" />
+
+  <!-- Order -->
+  <!-- This is an item that some of the Order test cases rely on having. -->
+  <Parameter name="orderItem" value="1002" />
+  <!-- These are the message names that are used by the Locate mock responder. -->
+  <Parameter name="default" value="default" />
+  <Parameter name="orderFoundItem" value="itemFound" />
+  <Parameter name="downloadDelivery" value="downloadDelivery" />
+  <Parameter name="downloadOSPickup" value="downloadOSPickup" />
+  <Parameter name="downloadTSPickup" value="downloadTSPickup" />
+
+  <!-- Scheduling -->
+  <!-- These are in only used for Scheduling testing, and can be overridden if different times are required. -->
+  <Parameter name="startTime" value="2014-11-05T08:00:00" />
+  <Parameter name="endTime" value="2014-11-05T09:00:00" />
+
+  <!-- Change this ItemId to the prompt for amount Gift Card ItemId that is used on the non-merch menu. -->
+  <!-- Gift Card Item Id -->
+  <Parameter name="giftCardId" value="1504" />
+
+  <!-- Overrides for Global Parameters needed to run in the en_US locale. -->
+  <Parameter name="dayOfWeek" value="Saturday" />
+  <Parameter name="currentTaxPostalCode" value="44139" />
+  <Parameter name="newTaxPostalCode" value="60046" />
+  <Parameter name="nofTaxPostalCode" value="16506" />
+  <Parameter name="taxCity" value="Erie" />
+  <Parameter name="taxState" value="PA" />
+  <Parameter name="idState" value="OH" />
+
+</XunitConfig>
